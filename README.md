@@ -1,5 +1,6 @@
 # arduino-robot
-My arduino robot ,this robot can detect and following human
+My arduino robot ,this robot can detect and following human 
+by me
 
 1. You have to Install the AFMotor and NewPing library Before Uploading the sketch
 2. To install the libraries ( first download the AF Motor driver, NewPing and Servo Library zip file 
