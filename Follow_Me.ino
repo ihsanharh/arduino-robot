@@ -1,10 +1,3 @@
-//Arduino Human Following Robot
-// Created By DIY Builder
-// You have to Install the AFMotor and NewPing library Before Uploading the sketch//
-// To install the libraries ( first download the AF Motor driver, NewPing and Servo Library zip file //
-// then Go to Skecth >> Include Library >> Add .Zip Library >> Select The downloaded zip file >> Done) //
-// Contact me on instagram for any question(Insta Id : DIY.Builder)
-
 
 #include<NewPing.h>
 #include<Servo.h>
@@ -28,8 +21,7 @@ Servo myservo;
  
 int pos =0;
 
-void setup() {
-  // put your setup code here, to run once:
+void setup() { 
   Serial.begin(9600);
 myservo.attach(10);
 {
